@@ -1,16 +1,14 @@
 
 
 body {
-    padding: 30px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
     background-color: #0C0C0C;
 }
 
 header {
-    min-height: 100vh;
-    max-width: 100%;
-    width: 1907px;
-    height: 1073px; 
+    width: 1410px;
+    height: 787px;
     background-image: url(images/front.jpg);
     background-position: center center;
     background-repeat: no-repeat;
