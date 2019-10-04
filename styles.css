@@ -28,7 +28,15 @@ h2 {
     color: #b21727;
     text-align: center;
     text-transform: uppercase;
+    /*border: #ffffff 2px solid; */
+    margin-left: 450px;
+    margin-right: 450px;
     border: #ffffff 2px solid;
+    
+}
+
+#latest {
+    
 }
 
 .vidcontainer { 
