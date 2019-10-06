@@ -103,9 +103,10 @@ nav a:link, nav a:visited {
 
 .imgcontainer{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-row-gap: 10px;
-   grid-column-gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 2px;
+    grid-column-gap: 2px;
+    margin: 5px;
 }
 
 .imgcontainer .imggriditem {
@@ -115,8 +116,69 @@ nav a:link, nav a:visited {
 }
 
 .imgcontainer img{
- border: rgb(83, 83, 83) solid 1px;
+    border: rgb(83, 83, 83) solid 1px;
 
 }
+
+.imgcontainer figure img {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.imgcontainer figure:hover img {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+#facebook {
+    max-width: 50px;
+    max-height: 50px;
+    color: #4267B2;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#instagram {
+    max-width: 50px;
+    max-height: 50px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#twitter {
+    max-width: 50px;
+    max-height: 50px;
+    color: #1DA1F1;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#youtube {
+    max-width: 50px;
+    max-height: 50px;
+    color: #FF0000;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#spotify {
+    max-width: 50px;
+    max-height: 50px;
+    color: #1BD760;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+
 
 
