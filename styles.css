@@ -172,6 +172,12 @@ nav a:link, nav a:visited {
       text-decoration-color: #ffffff;
   }
 
+  .jap {
+      color: #ffffff88;
+      margin-top: 20px;
+      padding-top: 60px;
+  }
+
 #facebook {
     max-width: 50px;
     max-height: 50px;
