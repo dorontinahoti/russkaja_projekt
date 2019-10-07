@@ -22,16 +22,16 @@ h1 {
     visibility: hidden;
 }
 
-h2 {
+h2, #merch, #contact, #gallery, #latest {
     font-family: 'barrio'; 
     font-size: 60px;
     color: #b21727;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 400px;
+    margin-right: 400px;
     border: #ffffff 2px solid;
-      
+    
 }
 
 h3 {
@@ -49,6 +49,23 @@ p{
     text-align: center;
     font-size: 30px;
 }
+
+.smileycontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.smileycontainer img {
+    min-width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    /*opacity: 0.8; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgba(54, 54, 54, 0.89));
+}
+
 
 .vidcontainer { 
     display: grid;
@@ -140,7 +157,7 @@ nav a:link, nav a:visited {
 	filter: grayscale(0);
 }
 
-.shop img { 
+.storepics img { 
     margin: 15px;
     display: flex;
     border: rgb(83, 83, 83) solid 2px; 
