@@ -245,11 +245,20 @@ nav a:link, nav a:visited {
 
 /* SOLD OUT SIDEN*/
 
-.sold-out {
+#error {
+    visibility: visible;
+    font-family: 'barrio';
+    color: #b21727;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.soldout {
     font-size: 20px;
     color: aliceblue;
     font-family: Source Code Pro;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
