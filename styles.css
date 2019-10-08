@@ -239,6 +239,10 @@ nav a:link, nav a:visited {
 
  #youtube {
       max-width: 60px;
+      margin-top: 17px;
+  }
+
+  #twitter {
       margin-top: 15px;
   }
 
