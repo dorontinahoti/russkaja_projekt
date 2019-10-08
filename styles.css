@@ -29,6 +29,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     border: #ffffff 2px solid;
+<<<<<<< Updated upstream
     margin-left: 400px;
     margin-right: 400px;
    
@@ -36,6 +37,12 @@ h2 {
 
    
     
+=======
+   
+
+   
+      
+>>>>>>> Stashed changes
 }
 
 h3 {
@@ -144,8 +151,25 @@ nav a:link, nav a:visited {
 	filter: grayscale(0);
 }
 
+.tourcontainer {
+    display: grid;
+    margin: 0px;
+    padding: 10px;
+    
+}
+.item {
+    color: white;
+    background: blueviolet;
+    margin: 0.5em;
+    text-transform: uppercase; 
+    text-align: left;
+    padding: 10px;
+    float: left;
+    
+
+}
 .shop img { 
-    margin: 15px;
+    margin: 10px;
     display: flex;
     border: rgb(83, 83, 83) solid 2px; 
     width: 90%;
@@ -159,7 +183,7 @@ nav a:link, nav a:visited {
 
   .shop a:hover {
       text-decoration: underline;
-      text-decoration-color: #ffffff;
+      text-decoration-color: rgba(248, 248, 29, 0.863);
       
   }
 
