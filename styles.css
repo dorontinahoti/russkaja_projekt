@@ -28,10 +28,14 @@ h2 {
     color: #b21727;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 450px;
-    margin-right: 450px;
     border: #ffffff 2px solid;
-      
+    margin-left: 400px;
+    margin-right: 400px;
+   
+    
+
+   
+    
 }
 
 h3 {
@@ -144,6 +148,8 @@ nav a:link, nav a:visited {
     margin: 15px;
     display: flex;
     border: rgb(83, 83, 83) solid 2px; 
+    width: 90%;
+
   
   }
   
