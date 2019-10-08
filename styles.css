@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    width: 1410px;
+    max-width: 1410px;
     height: 787px;
     background-image: url(images/front.jpg);
     background-position: center center;
@@ -66,7 +66,7 @@ p{
     filter: opacity(0.5) drop-shadow(0 0 0 rgba(54, 54, 54, 0.89));
 }
 
-.content, .infocontainer, .shop, .infocontainer {
+.content, .infocontainer, .shop, .vidcontainer {
     margin-bottom: 40px;
     margin-top: 30px;
     
@@ -134,15 +134,18 @@ nav a:link, nav a:visited {
 
 .imgcontainer{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 20%));
     grid-row-gap: 2px;
     grid-column-gap: 2px;
+    justify-content: space-evenly;
+    object-fit: center;
     margin: 5px;
+
 }
 
 .imgcontainer .imggriditem {
-    max-width: 100%;
-    max-height: 100%; 
+    max-width: 50%;
+    max-height: 50%; 
 
 }
 
