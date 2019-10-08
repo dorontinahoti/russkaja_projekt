@@ -167,27 +167,6 @@ nav a:link, nav a:visited {
 	filter: grayscale(0);
 }
 
-
-.tourcontainer {
-    display: grid;
-    margin: 0px;
-    padding: 10px;
-    
-}
-.item {
-    color: white;
-    background: blueviolet;
-    margin: 0.5em;
-    text-transform: uppercase; 
-    text-align: left;
-    padding: 10px;
-    float: left;
-    
-
-}
-  
-  }
-
     /*.shop img { 
         margin: 15px;
         display: flex;
