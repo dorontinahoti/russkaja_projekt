@@ -32,6 +32,7 @@ h2, #merch, #contact, #gallery, #latest {
     margin-right: 400px;
     border: #ffffff 2px solid;
     
+
 }
 
 h3 {
@@ -163,10 +164,31 @@ nav a:link, nav a:visited {
 	filter: grayscale(0);
 }
 
+
+.tourcontainer {
+    display: grid;
+    margin: 0px;
+    padding: 10px;
+    
+}
+.item {
+    color: white;
+    background: blueviolet;
+    margin: 0.5em;
+    text-transform: uppercase; 
+    text-align: left;
+    padding: 10px;
+    float: left;
+    
+
+}
+
 .storepics img { 
     margin: 15px;
     display: flex;
     border: rgb(83, 83, 83) solid 2px; 
+    width: 90%;
+
   
   }
   
@@ -176,7 +198,7 @@ nav a:link, nav a:visited {
 
   .shop a:hover {
       text-decoration: underline;
-      text-decoration-color: #ffffff;
+      text-decoration-color: rgba(248, 248, 29, 0.863);
       
   }
 
@@ -233,7 +255,19 @@ nav a:link, nav a:visited {
       margin-top: 60px;
   }
 
-  #youtube {
+ #youtube {
       max-width: 60px;
       margin-top: 15px;
   }
+
+
+/* SOLD OUT SIDEN*/
+
+.sold-out {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Source Code Pro;
+    text-align: center;
+}
+
+
