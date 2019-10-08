@@ -13,7 +13,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
 }
-#logo {
+.logo {
     background-color: rgba(0, 0, 0, 0.411);
     width: 755px;
     height: 155px;}
@@ -64,6 +64,12 @@ p{
     margin-left: 2vw;
     margin-right: 2vw;
     filter: opacity(0.5) drop-shadow(0 0 0 rgba(54, 54, 54, 0.89));
+}
+
+.content, .infocontainer, .shop, .infocontainer {
+    margin-bottom: 40px;
+    margin-top: 30px;
+    
 }
 
 
