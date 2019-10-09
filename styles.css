@@ -22,7 +22,7 @@ h1 {
     visibility: hidden;
 }
 
-h2, #merch, #contact, #gallery, #latest {
+h2, #merch, #contact, #gallery, #music, #tour {
     font-family: 'barrio'; 
     font-size: 60px;
     color: #b21727;
@@ -67,7 +67,7 @@ p{
     filter: opacity(0.5) drop-shadow(0 0 0 rgba(54, 54, 54, 0.89));
 }
 
-.content, .infocontainer, .shop, .vidcontainer {
+.content, .infocontainer, .shop, .vidcontainer .tourcontainer {
     margin-bottom: 40px;
     margin-top: 30px;
     
@@ -152,25 +152,15 @@ nav a:link, nav a:visited {
     
 }
 
-/* .imgcontainer .imggriditem {
-    max-width: 100%;
-    max-height: 100%; 
-
-} */
-
 .imgcontainer img{
     border: rgb(83, 83, 83) solid 1px;
-    width: 342px;
-    height: 248px;
+    width: 334px;
+    height: 240px;
     display: block;
     object-fit: cover;
     box-sizing: border-box;
     
 
-}
-
-figure {
-    
 }
 
 .imgcontainer figure img {
@@ -185,7 +175,7 @@ figure {
 	filter: grayscale(0);
 }
 
-.tour {
+.tourcontainer {
     background-image: url(images/bg_tour.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -193,7 +183,7 @@ figure {
     grid-template-columns: 25% 35% 24% 14%;
     grid-auto-rows: repeat(8, 65px);
     box-sizing: border-box;
-    margin: 0%;
+    margin-left: 25px;
     align-content: center;
 }
 
@@ -211,7 +201,7 @@ figure {
     padding: 1px;
 }
 
-.tickets a:link {
+.tickets a:link, a:visited {
     text-decoration: none;
     text-transform: capitalize;
     background-color: #0C0C0C;
@@ -231,22 +221,22 @@ figure {
    
 }
 
-    .shoppics {
-        display: flex;
-        justify-content: space-evenly;
+.shoppics {
+    display: flex;
+    justify-content: space-evenly;
     }
 
-  .shop a:link {
-      text-decoration: none;
+.shop a:link {
+    text-decoration: none;
   }
 
-  .shop a:hover {
-      text-decoration: underline;
-      text-decoration-color: rgba(248, 248, 29, 0.863);
+.shop a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.938);
       
   }
 
-  .infocontainer {
+.infocontainer {
       background-image: url(images/bg_contact1.png);
       background-position: center center;
       background-repeat: no-repeat;
