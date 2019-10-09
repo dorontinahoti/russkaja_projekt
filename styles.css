@@ -184,7 +184,7 @@ nav a:link, nav a:visited {
     grid-template-columns: 25% 35% 24% 16%;
     grid-auto-rows: repeat(8, 65px);
     box-sizing: border-box;
-    margin-left: 70px;
+    margin-left: 50px;
     align-content: center;
 }
 
@@ -211,6 +211,7 @@ nav a:link, nav a:visited {
 
 .tickets a:link, a:visited {
     color: #ffffff;
+    font-family: Source Code Pro;
     text-decoration: none;
     text-align: center;
     background-color: #0C0C0C;
@@ -221,7 +222,7 @@ nav a:link, nav a:visited {
     padding: 5px;  /*
     margin-top: 10px;
     */
-    font-size: 25px;
+    font-size: 22px;
     text-transform: capitalize; 
 }
 
