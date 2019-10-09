@@ -253,11 +253,7 @@ iframe {
 .infocontainer {
     background-image: url("../russkaja_projekt/images/bg_contact1.png");
     background-position: center center;
-    background-repeat: repeat; 
-    background-color: transparent;
-    height: 100px;
-    width: 100px;
-    background-size: 100%;
+    background-repeat: no-repeat; 
   }
 
 .infocontainer a:link {
