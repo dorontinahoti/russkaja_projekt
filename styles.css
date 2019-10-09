@@ -1,4 +1,4 @@
-
++
 
 body {
     padding: 10px;
@@ -167,13 +167,7 @@ nav a:link, nav a:visited {
 	filter: grayscale(0);
 }
 
-    /*.shop img { 
-        margin: 15px;
-        display: flex;
-        border: rgb(83, 83, 83) solid 2px; 
-        width: 80%;
-  }*/
-  
+
   .shop a:link {
       text-decoration: none;
   }
