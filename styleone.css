@@ -1,0 +1,83 @@
+body {
+    padding: 10px;
+    margin: 5px;
+    background-color: #0C0C0C;
+}
+
+header {
+    width: 1410px;
+    height: 787px;
+    background-image: url(images/front.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.logo {
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 755px;
+    height: 155px;}
+   
+h1 {
+    visibility: hidden;
+}
+
+h2 {
+    font-family: 'barrio'; 
+    font-size: 60px;
+    color: #b21727;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: #ffffff 2px solid;
+      
+}
+
+h3 {
+    font-family: Source Code Pro;
+    color: rgba(248, 248, 29, 0.863);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+p{
+    font-family: Source Code Pro;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tour{
+    background-image: ;
+    background-position:  left;
+    background-repeat: no-repeat;
+}
+
+.tour {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+.tour p{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    
+}
+
+.tour p{
+    font-size: 25px;
+}
+
+
+.tickets ul a:link{
+text-decoration: none;
+border: #ffffff;
+}
+
+.tickets a:hover {
+    text-decoration: underline;
+    color: #ffffff;  
+}
