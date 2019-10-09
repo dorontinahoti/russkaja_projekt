@@ -165,8 +165,6 @@ iframe {
     display: block;
     object-fit: cover;
     box-sizing: border-box;
-    
-
 }
 
 .imgcontainer figure img {
@@ -345,4 +343,7 @@ iframe {
     margin-bottom: 30px;
 }
 
-
+.gifcontainer {
+    display: flex;
+    justify-content: center;
+}
