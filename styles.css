@@ -343,4 +343,10 @@ figure {
     margin-bottom: 30px;
 }
 
+.giphy-embed {
+    display: block;
+    margin: auto;
+    width: 40%;
+  
+}
 
