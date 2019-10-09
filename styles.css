@@ -231,8 +231,8 @@ iframe {
 
 .tickets a:hover {
     color: #0C0C0C;
-    background-color: rgba(245, 229, 3, 0.856);
-
+    /* background-color: rgba(245, 229, 3, 0.856); */
+    background-color: rgba(255, 255, 255, 0.945);
 }
    
 .shoppics {
