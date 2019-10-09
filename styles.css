@@ -217,17 +217,33 @@ figure {
     background-color: #0C0C0C;
 }
 
-.tickets a:hover {
-    background-color: #ffffff;
 
+.tickets a:hover {
+    background: #ffffff;
+    color:  #0C0C0C;
+    margin-top: 24px;
 }
 
-.tickets .tick{
+.tickets {
+    width: 100px;
+    overflow-y: scrolls;
+}
+
+.tickets > a {
+    width: 110px;
+    height: 30px;
+    float: left;  
+    margin-top: 24px;
+    padding: 5px;
+    align-content: center;
+}
+
+.tick {
     border: solid 2px #ffffff;
-    margin: 22px;
     padding: 5px;
     font-size: 25px;
-    
+    font-family: Source Code Pro;
+    color: #ffffff;
    
 }
 
