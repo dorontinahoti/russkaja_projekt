@@ -72,9 +72,8 @@ p{
 }
 
 
-.tickets ul a:link{
+.tickets a:link{
 text-decoration: none;
-border: #ffffff;
 }
 
 .tickets a:hover {
