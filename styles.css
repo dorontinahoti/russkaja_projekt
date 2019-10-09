@@ -54,6 +54,7 @@ p{
 .smileycontainer {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .smileycontainer img {
@@ -180,10 +181,10 @@ nav a:link, nav a:visited {
     background-position: center center;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: 25% 35% 24% 14%;
+    grid-template-columns: 25% 35% 24% 16%;
     grid-auto-rows: repeat(8, 65px);
     box-sizing: border-box;
-    margin-left: 25px;
+    margin-left: 70px;
     align-content: center;
 }
 
@@ -201,26 +202,35 @@ nav a:link, nav a:visited {
     padding: 1px;
 }
 
+.tickets {
+    display: flex;
+    flex-flow: column;
+    align-content: space-evenly;
+    margin-top: 20px;
+}
+
 .tickets a:link, a:visited {
+    color: #ffffff;
     text-decoration: none;
-    text-transform: capitalize;
+    text-align: center;
     background-color: #0C0C0C;
+    border: solid 2px #ffffff;
+    width: 100px;
+    height: 33px;
+    margin: 10px;
+    padding: 5px;  /*
+    margin-top: 10px;
+    */
+    font-size: 25px;
+    text-transform: capitalize; 
 }
 
 .tickets a:hover {
-    background-color: #ffffff;
+    color: #0C0C0C;
+    background-color: rgba(245, 229, 3, 0.856);
 
 }
-
-.tickets .tick{
-    border: solid 2px #ffffff;
-    margin: 22px;
-    padding: 5px;
-    font-size: 25px;
-    
    
-}
-
 .shoppics {
     display: flex;
     justify-content: space-evenly;
@@ -242,22 +252,22 @@ nav a:link, nav a:visited {
       background-repeat: no-repeat;
   }
 
-  .infocontainer a:link {
+.infocontainer a:link {
       text-decoration: none;
   }
 
-  .infocontainer a:hover {
+.infocontainer a:hover {
       text-decoration: underline;
       text-decoration-color: #ffffff;
   }
 
-  .jap {
+.jap {
       color: #ffffff88;
       margin-top: 20px;
       padding-top: 60px;
   }
 
-  #myBtn {
+#myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -272,34 +282,37 @@ nav a:link, nav a:visited {
     padding: 15px;
     border-radius: 4px;
   }
-  #myBtn:hover {
+
+#myBtn:hover {
     background-color: #555;
   }
 
-  .somelogo {
-    max-width: 50px;
-    max-height: 50px;
+.somelogo {
+    max-width: 60px;
+    max-height: 60px;
     margin: 10px;
+    align-content: center;
   }
 
-  .somecontainer {
-      display: flex;
-      justify-content: space-evenly;
-      align-content: center;
-      margin-top: 60px;
+.somecontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
 
- #youtube {
-      max-width: 60px;
-      margin-top: 17px;
+#youtube {
+    max-width: 70px;
+    margin-top: 17px;
   }
 
-  #twitter {
-      margin-top: 15px;
+#twitter {
+    margin-top: 15px;
   }
 
 
-/* SOLD OUT SIDEN*/
+/* SOLD OUT PAGE*/
 
 #error {
     visibility: visible;
@@ -311,7 +324,7 @@ nav a:link, nav a:visited {
 
 .soldout {
     font-size: 20px;
-    color: aliceblue;
+    color: #ffffff;
     font-family: Source Code Pro;
     text-align: center;
     margin-bottom: 30px;
