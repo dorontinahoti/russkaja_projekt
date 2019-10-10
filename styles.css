@@ -1,10 +1,22 @@
 
+/* ------------ BODY ------------*/
+
+
+
 
 body {
     padding: 10px;
     margin: 5px;
     background-color: #0C0C0C;
 }
+
+
+
+
+/* ------------ HEADER ------------*/
+
+
+
 
 header {
     max-width: 1410px;
@@ -13,11 +25,67 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .logo {
     background-color: rgba(0, 0, 0, 0.411);
     width: 755px;
-    height: 155px;}
-   
+    height: 155px;
+}
+
+
+
+
+/* ------ NAVITGATION - HEADER -----*/
+
+
+
+
+.menu {
+    color: white;
+}
+
+.logodiv {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 30px;
+    border-bottom: solid #0C0C0C 4px;
+    padding: 5px;
+    margin-right: 35px;
+    padding-inline-start: 0px;
+    background-color: rgba(12, 12, 12, 0.5);
+    justify-self: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav a:link, nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: solid #0C0C0C 3px; 
+}
+
+
+
+/* ---------- SKRIFTYPER -----------*/   
+
+
+ 
+
 h1 {
     visibility: hidden;
 }
@@ -31,8 +99,6 @@ h2, #merch, #contact, #gallery, #music, #tour {
     margin-left: 400px;
     margin-right: 400px;
     border: #ffffff 2px solid;
-    
-
 }
 
 h3 {
@@ -41,15 +107,23 @@ h3 {
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-
 }
 
-p{
+p {
     font-family: Source Code Pro;
     color: #ffffff;
     text-align: center;
     font-size: 30px;
 }
+
+
+
+
+
+/* ------------ SMILEYS ------------*/
+
+
+
 
 .smileycontainer {
     display: flex;
@@ -95,31 +169,34 @@ ul {
 
 }
 
-nav a:link, nav a:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-nav a:hover {
-    border-bottom: solid #0C0C0C 3px; 
-}
+
+
+/* ------------ MARGIN -------------*/
+
+
+
 
 .content, .infocontainer, .shop, .vidcontainer .tourcontainer {
+
     margin-bottom: 40px;
     margin-top: 30px;
-    
 }
+
+
+
+
+/* ---------- LATEST MUSIC ----------*/
+
+
 
 
 .vidcontainer { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-   /* grid-gap: 10px 10px;*/
-   grid-row-gap: 10px;
-   grid-column-gap: 10px;
-
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
 }
-
 
 iframe {
     border: rgb(83, 83, 83) solid 2px;
@@ -141,6 +218,14 @@ iframe {
 }
 
 
+
+
+
+/* ----------- GALLERY ----------*/
+
+
+
+
 .imgcontainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 20%));
@@ -148,15 +233,13 @@ iframe {
     grid-column-gap: 2px;
     justify-content: space-evenly;
     margin: 5px;
-    
-
 }
 
 .imgcontainer div {
     display: flex;
     justify-content: center;
-    
 }
+
 
 .imgcontainer img{
     border: rgb(83, 83, 83) solid 1px;
@@ -167,6 +250,7 @@ iframe {
     box-sizing: border-box;
 }
 
+
 .imgcontainer figure img {
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -174,12 +258,23 @@ iframe {
 	transition: .3s ease-in-out;
 }
 
+
 .imgcontainer figure:hover img {
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
 
+
+
+
+/* ------------- TOUR -----------*/
+
+
+
+
+
 .tourcontainer {
+
     background-image: url(images/bg_tour.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -191,12 +286,10 @@ iframe {
     align-content: center;
 }
 
-
 .city p {
     text-align: left;
     margin-left: 10px;
     text-transform: uppercase;
-    
 }
 
 .location p {
@@ -231,10 +324,20 @@ iframe {
 
 .tickets a:hover {
     color: #0C0C0C;
-    /* background-color: rgba(245, 229, 3, 0.856); */
+    
     background-color: rgba(255, 255, 255, 0.945);
 }
    
+
+
+
+
+/* ------------ MERCH ----------*/
+
+
+
+
+
 .shoppics {
     display: flex;
     justify-content: space-evenly;
@@ -249,6 +352,12 @@ iframe {
     text-decoration-color: rgba(255, 255, 255, 0.938);
       
   }
+
+/* ---------- CONTACT ---------*/
+
+
+
+
 
 .infocontainer {
     background-image: url("../russkaja_projekt/images/bg_contact1.png");
@@ -275,6 +384,14 @@ iframe {
       padding-top: 60px;
   }
 
+
+
+
+/* ------ BACK TO TOP BUTTON ------*/
+
+
+
+
 #myBtn {
     display: none;
     position: fixed;
@@ -289,11 +406,21 @@ iframe {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
+}
+
 
 #myBtn:hover {
     background-color: #555;
-  }
+}
+
+
+
+
+/* -------- SOCIAL MEDIA ---------*/
+
+
+
+
 
 .somelogo {
     max-width: 60px;
@@ -325,7 +452,12 @@ iframe {
   }
 
 
-/* SOLD OUT PAGE*/
+
+
+/* ------ SOLD OUT SIDEN -------*/
+
+
+
 
 #error {
     visibility: visible;
