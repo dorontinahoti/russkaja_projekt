@@ -1,10 +1,22 @@
 
+/* ------------ BODY ------------*/
+
+
+
 
 body {
     padding: 10px;
     margin: 5px;
     background-color: #0C0C0C;
 }
+
+
+
+
+/* ------------ HEADER ------------*/
+
+
+
 
 header {
     max-width: 1410px;
@@ -13,104 +25,28 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .logo {
     background-color: rgba(0, 0, 0, 0.411);
     width: 755px;
-    height: 155px;}
-   
-h1 {
-    visibility: hidden;
-}
-
-h2, #merch, #contact, #gallery, #latest {
-    font-family: 'barrio'; 
-    font-size: 60px;
-    color: #b21727;
-    text-align: center;
-    text-transform: uppercase;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: #ffffff 2px solid;
-    
-
-}
-
-h3 {
-    font-family: Source Code Pro;
-    color: rgba(248, 248, 29, 0.863);
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-
-}
-
-p{
-    font-family: Source Code Pro;
-    color: #ffffff;
-    text-align: center;
-    font-size: 30px;
-}
-
-.smileycontainer {
-    display: flex;
-    justify-content: center;
-}
-
-.smileycontainer img {
-    min-width: 40px;
-    min-width: 40px;
-    max-width: 40px;
-    max-height: 40px;
-    /*opacity: 0.8; */
-    margin-left: 2vw;
-    margin-right: 2vw;
-    filter: opacity(0.5) drop-shadow(0 0 0 rgba(54, 54, 54, 0.89));
-}
-
-.content, .infocontainer, .shop, .vidcontainer {
-    margin-bottom: 40px;
-    margin-top: 30px;
-    
+    height: 155px;
 }
 
 
-.vidcontainer { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   /* grid-gap: 10px 10px;*/
-   grid-row-gap: 10px;
-   grid-column-gap: 10px;
-
-}
 
 
-iframe {
-    border: rgb(83, 83, 83) solid 2px;
-    width: 560px;
-    height: 315px;
-}
+/* ------ NAVITGATION - HEADER -----*/
 
-.vidcontainer .vidgriditem {
-    max-width: 100%;
-    max-height: 100%; 
-}
 
-.vidcontainer img {
-    grid-row: 1/3;
-    grid-column: 3/4;
-    align-self: center;
-    opacity: 0.8;
-    filter: alpha(opacity=50);
+
+
+.menu {
+    color: white;
 }
 
 .logodiv {
     display: flex;
     justify-content: center;
-}
-
-.menu {
-    color: white;
-
 }
 
 nav li {
@@ -135,6 +71,123 @@ nav a:link, nav a:visited {
 }
 
 
+
+
+
+/* ---------- SKRIFTYPER -----------*/   
+
+
+ 
+
+h1 {
+    visibility: hidden;
+}
+
+h2, #merch, #contact, #gallery, #latest {
+    font-family: 'barrio'; 
+    font-size: 60px;
+    color: #b21727;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: #ffffff 2px solid;
+}
+
+h3 {
+    font-family: Source Code Pro;
+    color: rgba(248, 248, 29, 0.863);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    font-family: Source Code Pro;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+/* ------------ SMILEYS ------------*/
+
+
+
+
+.smileycontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.smileycontainer img {
+    min-width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgba(54, 54, 54, 0.89));
+}
+
+
+
+
+/* ------------ MARGIN -------------*/
+
+
+
+
+.content, .infocontainer, .shop, .vidcontainer {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+
+
+/* ---------- LATEST MUSIC ----------*/
+
+
+
+
+.vidcontainer { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+iframe {
+    border: rgb(83, 83, 83) solid 2px;
+    width: 560px;
+    height: 315px;
+}
+
+.vidcontainer .vidgriditem {
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.vidcontainer img {
+    grid-row: 1/3;
+    grid-column: 3/4;
+    align-self: center;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+
+
+
+
+/* ----------- GALLERY ----------*/
+
+
+
+
 .imgcontainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 20%));
@@ -142,21 +195,13 @@ nav a:link, nav a:visited {
     grid-column-gap: 2px;
     justify-content: space-evenly;
     margin: 5px;
-    
-
 }
 
 .imgcontainer div {
     display: flex;
     justify-content: center;
-    
 }
 
-/* .imgcontainer .imggriditem {
-    max-width: 100%;
-    max-height: 100%; 
-
-} */
 
 .imgcontainer img{
     border: rgb(83, 83, 83) solid 1px;
@@ -165,13 +210,8 @@ nav a:link, nav a:visited {
     display: block;
     object-fit: cover;
     box-sizing: border-box;
-    
-
 }
 
-figure {
-    
-}
 
 .imgcontainer figure img {
     -webkit-filter: grayscale(100%);
@@ -180,10 +220,19 @@ figure {
 	transition: .3s ease-in-out;
 }
 
+
 .imgcontainer figure:hover img {
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
+
+
+
+
+/* ------------- TOUR -----------*/
+
+
+
 
 .tour {
     background-image: url(images/bg_tour.jpg);
@@ -197,12 +246,10 @@ figure {
     align-content: center;
 }
 
-
 .city p {
     text-align: left;
     margin-left: 10px;
     text-transform: uppercase;
-    
 }
 
 .location p {
@@ -216,7 +263,6 @@ figure {
     text-transform: capitalize;
     background-color: #0C0C0C;
 }
-
 
 .tickets a:hover {
     background: #ffffff;
@@ -244,46 +290,67 @@ figure {
     font-size: 25px;
     font-family: Source Code Pro;
     color: #ffffff;
-   
 }
 
-    .shoppics {
-        display: flex;
-        justify-content: space-evenly;
-    }
 
-  .shop a:link {
-      text-decoration: none;
-  }
 
-  .shop a:hover {
-      text-decoration: underline;
-      text-decoration-color: rgba(248, 248, 29, 0.863);
-      
-  }
+/* ------------ MERCH ----------*/
 
-  .infocontainer {
-      background-image: url(images/bg_contact1.png);
-      background-position: center center;
-      background-repeat: no-repeat;
-  }
 
-  .infocontainer a:link {
-      text-decoration: none;
-  }
 
-  .infocontainer a:hover {
-      text-decoration: underline;
-      text-decoration-color: #ffffff;
-  }
 
-  .jap {
-      color: #ffffff88;
-      margin-top: 20px;
-      padding-top: 60px;
-  }
 
-  #myBtn {
+.shoppics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shop a:link {
+    text-decoration: none;
+}
+
+.shop a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(248, 248, 29, 0.863);
+}
+
+
+
+/* ---------- CONTACT ---------*/
+
+
+
+
+.infocontainer {
+    background-image: url(images/bg_contact1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.infocontainer a:link {
+    text-decoration: none;
+}
+
+.infocontainer a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+.jap {
+    color: #ffffff88;
+    margin-top: 20px;
+    padding-top: 60px;
+}
+
+
+
+/* ------ BACK TO TOP BUTTON ------*/
+
+
+
+
+
+#myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -297,35 +364,47 @@ figure {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
-  #myBtn:hover {
-    background-color: #555;
-  }
+}
 
-  .somelogo {
+#myBtn:hover {
+    background-color: #555;
+}
+
+
+
+/* -------- SOCIAL MEDIA ---------*/
+
+
+
+
+.somelogo {
     max-width: 50px;
     max-height: 50px;
     margin: 10px;
-  }
+}
 
-  .somecontainer {
-      display: flex;
-      justify-content: space-evenly;
-      align-content: center;
-      margin-top: 60px;
-  }
+.somecontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 60px;
+}
 
- #youtube {
-      max-width: 60px;
-      margin-top: 17px;
-  }
+#youtube {
+    max-width: 60px;
+    margin-top: 17px;
+}
 
-  #twitter {
-      margin-top: 15px;
-  }
+#twitter {
+    margin-top: 15px;
+}
 
 
-/* SOLD OUT SIDEN*/
+
+/* ------ SOLD OUT SIDEN -------*/
+
+
+
 
 #error {
     visibility: visible;
@@ -347,6 +426,5 @@ figure {
     display: block;
     margin: auto;
     width: 40%;
-  
 }
 
