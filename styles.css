@@ -52,7 +52,6 @@ header {
 nav li {
     list-style-type: none;
     font-size: 30px;
-    border-bottom: solid #0C0C0C 4px;
     padding: 5px;
     margin-right: 35px;
     padding-inline-start: 0px;
@@ -70,10 +69,7 @@ nav a:link, nav a:visited {
     text-decoration: none;
 }
 
-nav a:link, nav a:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
+
 
 nav a:hover {
     border-bottom: solid #0C0C0C 3px; 
